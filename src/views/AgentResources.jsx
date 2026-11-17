@@ -157,7 +157,10 @@ const AgentResources = () => {
     }, []);
 
     return (
-        <div className="min-h-screen bg-white">
+        // overflow-x-clip: the Training CTA cutout extrudes past the panel and,
+        // below ~1920px, past the viewport — clip it there instead of letting the
+        // page scroll sideways. `clip` (not `hidden`) keeps the sticky nav working.
+        <div className="min-h-screen bg-white overflow-x-clip">
 
             {/* ── Hero ── */}
             <section className="bg-neutral-50 border-b border-slate-100 pt-[200px] lg:pt-[240px] pb-20">

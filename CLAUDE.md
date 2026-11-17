@@ -139,7 +139,7 @@ See [`SITEMAP.md`](SITEMAP.md) for the full route list.
 - Brand brief (voice, audience, palette, principles): [`.impeccable.md`](.impeccable.md).
   Voice is plain-spoken, reassuring, dignified; aesthetic is editorial/documentary,
   light theme.
-- Design tokens (custom color scales — `berry`/coral `#E8553D`, `navy` `#002e5d`,
+- Design tokens (custom color scales — `berry`/coral `#E8553D`, `navy` `#082142`,
   plus `sand`, `sage`, `khaki`; custom shadows `soft`/`glow`/`glass`) live in
   `tailwind.config.js`.
 - Component/token reference: the `/styleguide` route (`src/styleguide/`,

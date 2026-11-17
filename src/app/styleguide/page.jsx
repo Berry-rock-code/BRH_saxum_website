@@ -921,7 +921,7 @@ const StyleGuidePage = () => {
                                 <UsageNote variant="note" label="Token consolidation underway">
                                     The arbitrary-value hex codes
                                     (<code className="font-mono text-[12px]">[#E8553D]</code>,{' '}
-                                    <code className="font-mono text-[12px]">[#002e5d]</code>,{' '}
+                                    <code className="font-mono text-[12px]">[#082142]</code>,{' '}
                                     <code className="font-mono text-[12px]">[#c0392b]</code>) are
                                     being swept across the codebase to the named Tailwind tokens
                                     (<code className="font-mono text-[12px]">berry-600</code>,{' '}
