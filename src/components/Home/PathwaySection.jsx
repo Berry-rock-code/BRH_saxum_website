@@ -243,7 +243,13 @@ const PathwaySection = () => {
     // centre panel could disagree. Re-taking the lock on focus keeps them
     // together, and deliberately does not scroll: moving the page under
     // someone who is only tabbing through would be worse than the desync.
-    const focusStep = (idx) => {
+    //
+    // Keyboard focus only: a mouse/touch press also focuses the button (in
+    // Chrome/Firefox) *before* its click fires, which would select the persona
+    // here and then have scrollToStep read it as "already active" and toggle
+    // it straight back off — the first click appeared to do nothing.
+    const focusStep = (idx, event) => {
+        if (!event?.target?.matches?.(':focus-visible')) return;
         clickLockRef.current = true;
         setActiveId(personas[idx].id);
     };
@@ -454,7 +460,7 @@ const ArcPortrait = ({ persona, index, pos, hasEntered, activeId, onSelect, onFo
                 <motion.button
                     type="button"
                     onClick={() => onSelect(index)}
-                    onFocus={() => onFocusStep(index)}
+                    onFocus={(event) => onFocusStep(index, event)}
                     animate={{
                         opacity: otherActive ? 0.45 : 1,
                         scale: isActive ? ACTIVE_SCALE : otherActive ? 0.96 : 1,

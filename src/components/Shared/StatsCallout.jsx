@@ -34,7 +34,7 @@ const StatsCallout = ({
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    className="flex flex-col justify-center"
+                    className="flex flex-col justify-center min-w-0"
                 >
                     {eyebrow && (
                         <p className="text-xs font-bold text-navy-600 uppercase tracking-[0.2em] mb-4">
@@ -55,15 +55,15 @@ const StatsCallout = ({
                     initial={{ opacity: 0, x: 20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    className={`${bg} rounded-2xl p-10 md:p-14 shadow-sm`}
+                    className={`${bg} rounded-2xl p-10 md:p-14 shadow-sm min-w-0`}
                 >
                     {stats.map((stat, i) => (
                         <div key={i}>
-                            <div className="flex items-center gap-6">
+                            <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
                                 <span className="text-5xl md:text-6xl font-light text-navy-800 tracking-tight whitespace-nowrap">
                                     {stat.value}
                                 </span>
-                                <span className="text-lg text-slate-700 font-medium leading-snug">
+                                <span className="flex-1 basis-32 min-w-0 text-lg text-slate-700 font-medium leading-snug">
                                     {stat.label}
                                 </span>
                             </div>
