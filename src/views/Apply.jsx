@@ -32,7 +32,7 @@ const bentoTile = {
 const FormArt = () => (
     <svg viewBox="0 0 200 130" fill="none" className="h-28 w-auto" aria-hidden="true">
         <rect x="48" y="18" width="104" height="94" rx="11" fill="#fff" stroke="#dce6f1" strokeWidth="2" />
-        <rect x="64" y="34" width="46" height="8" rx="4" fill="#002e5d" />
+        <rect x="64" y="34" width="46" height="8" rx="4" fill="#082142" />
         <rect x="64" y="54" width="74" height="6" rx="3" fill="#e8e1d6" />
         <rect x="64" y="68" width="74" height="6" rx="3" fill="#e8e1d6" />
         <rect x="64" y="82" width="48" height="6" rx="3" fill="#e8e1d6" />
@@ -46,10 +46,10 @@ const FormArt = () => (
 const ShieldArt = () => (
     <svg viewBox="0 0 200 130" fill="none" className="h-28 w-auto" aria-hidden="true">
         <rect x="44" y="22" width="112" height="86" rx="12" fill="#fff" stroke="#dce6f1" strokeWidth="2" />
-        <rect x="60" y="38" width="40" height="7" rx="3.5" fill="#002e5d" />
+        <rect x="60" y="38" width="40" height="7" rx="3.5" fill="#082142" />
         <path d="M68 92 A26 26 0 0 1 120 92" stroke="#e8e1d6" strokeWidth="7" strokeLinecap="round" />
         <path d="M68 92 A26 26 0 0 1 112 72" stroke="#E8553D" strokeWidth="7" strokeLinecap="round" />
-        <circle cx="94" cy="92" r="3.5" fill="#002e5d" />
+        <circle cx="94" cy="92" r="3.5" fill="#082142" />
         <circle cx="140" cy="98" r="22" fill="#E8553D" />
         <circle cx="140" cy="98" r="22" fill="none" stroke="#fff" strokeWidth="2" opacity="0.35" />
         <path d="M131 98 l6 6 12 -15" stroke="#fff" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
@@ -59,7 +59,7 @@ const ShieldArt = () => (
 const EnvelopeArt = () => (
     <svg viewBox="0 0 200 130" fill="none" className="h-28 w-auto" aria-hidden="true">
         <rect x="44" y="40" width="112" height="70" rx="12" fill="#fff" stroke="#dce6f1" strokeWidth="2" />
-        <path d="M50 48 L100 82 L150 48" stroke="#002e5d" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M50 48 L100 82 L150 48" stroke="#082142" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
         <circle cx="140" cy="98" r="22" fill="#E8553D" />
         <circle cx="140" cy="98" r="22" fill="none" stroke="#fff" strokeWidth="2" opacity="0.35" />
         <text x="140" y="103" textAnchor="middle" fontSize="15" fontWeight="700" fill="#fff" fontFamily="Outfit, sans-serif">48h</text>

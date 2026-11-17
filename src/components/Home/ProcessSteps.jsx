@@ -219,7 +219,7 @@ const stepsData = [
         title: "Apply & Pre-Qualify",
         desc: "Apply online or over the phone. We only run a \"soft\" credit check (no impact to your score), quickly verify your income, and email you and your realtor your estimated eligibility amount.",
         gradient: "from-navy-800 to-navy-950",
-        lineColorStart: "#002e5d",
+        lineColorStart: "#082142",
         lineColorEnd: "#1e3f5e",
         mockup: <MockupApply />
     },

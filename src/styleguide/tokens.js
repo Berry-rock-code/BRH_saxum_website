@@ -34,7 +34,7 @@ export const colorScales = [
             { step: 500, hex: '#3a6e9a' },
             { step: 600, hex: '#2b567c' },
             { step: 700, hex: '#1e3f5e' },
-            { step: 800, hex: '#002e5d', label: 'Primary' },
+            { step: 800, hex: '#082142', label: 'Primary' },
             { step: 900, hex: '#002050' },
             { step: 950, hex: '#001030' },
         ],
@@ -100,11 +100,11 @@ export const semanticColors = [
     { role: 'Page background', token: 'bg-neutral-50', hex: '#fafafa' },
     { role: 'Body text', token: 'text-slate-800', hex: '#1e293b' },
     { role: 'Muted text', token: 'text-slate-500', hex: '#64748b' },
-    { role: 'Headings', token: 'text-navy-800', hex: '#002e5d' },
+    { role: 'Headings', token: 'text-navy-800', hex: '#082142' },
     { role: 'Borders (default)', token: 'border-slate-200', hex: '#e2e8f0' },
     { role: 'Primary CTA', token: 'bg-berry-600', hex: '#E8553D' },
     { role: 'Primary CTA hover', token: 'bg-berry-700', hex: '#c0392b' },
-    { role: 'Dark section', token: 'bg-navy-800', hex: '#002e5d' },
+    { role: 'Dark section', token: 'bg-navy-800', hex: '#082142' },
     { role: 'Accent', token: 'text-sky-400', hex: '#38bdf8' },
 ];
 

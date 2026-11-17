@@ -200,7 +200,7 @@ const StepsShowcase = () => {
                                             <span
                                                 className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold shrink-0 transition-colors"
                                                 style={{
-                                                    background: isActive ? '#E8553D' : isDone ? '#002e5d' : 'rgba(15,23,60,0.12)',
+                                                    background: isActive ? '#E8553D' : isDone ? '#082142' : 'rgba(15,23,60,0.12)',
                                                     color: isActive || isDone ? '#fff' : 'rgba(15,23,60,0.38)',
                                                 }}
                                             >
@@ -209,7 +209,7 @@ const StepsShowcase = () => {
                                             <span
                                                 className="text-base leading-snug transition-colors"
                                                 style={{
-                                                    color:      isActive ? '#E8553D' : isDone ? 'rgba(0,46,93,0.65)' : 'rgba(15,23,60,0.36)',
+                                                    color:      isActive ? '#E8553D' : isDone ? 'rgba(8,33,66,0.65)' : 'rgba(15,23,60,0.36)',
                                                     fontWeight: isActive ? 700 : 500,
                                                 }}
                                             >
@@ -301,7 +301,7 @@ const StepsShowcase = () => {
                                     onClick={() => advance(1)}
                                     aria-label={`Next: ${steps[activeStep + 1]?.navLabel}`}
                                     className="inline-flex items-center gap-1 text-sm font-semibold px-4 py-2 rounded-full transition-colors hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-navy-800"
-                                    style={{ background: '#002e5d', color: '#fff' }}
+                                    style={{ background: '#082142', color: '#fff' }}
                                 >
                                     Next <ChevronRight size={14} />
                                 </button>
@@ -339,7 +339,7 @@ const StepsShowcase = () => {
                                     style={{
                                         width:      i === activeStep ? '20px' : '7px',
                                         height:     '7px',
-                                        background: i === activeStep ? '#E8553D' : i < activeStep ? '#002e5d' : 'rgba(15,23,60,0.14)',
+                                        background: i === activeStep ? '#E8553D' : i < activeStep ? '#082142' : 'rgba(15,23,60,0.14)',
                                     }}
                                 />
                             </button>
@@ -424,7 +424,7 @@ const StepsShowcase = () => {
                                         onClick={() => advance(1)}
                                         aria-label={`Next: ${steps[activeStep + 1]?.navLabel}`}
                                         className="min-h-[44px] inline-flex items-center gap-1 px-4 py-2.5 rounded-full text-sm font-semibold transition-colors hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1"
-                                        style={{ background: '#002e5d', color: '#fff' }}
+                                        style={{ background: '#082142', color: '#fff' }}
                                     >
                                         Next <ChevronRight size={14} />
                                     </button>

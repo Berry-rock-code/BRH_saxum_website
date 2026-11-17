@@ -560,7 +560,7 @@ const ScrollProgress = ({ activeIndex }) => (
                     key={i}
                     animate={{
                         width: isCurrent ? 26 : 6,
-                        backgroundColor: isCurrent ? '#E8553D' : '#002e5d33',
+                        backgroundColor: isCurrent ? '#E8553D' : '#08214233',
                     }}
                     transition={{ duration: 0.4, ease: EASE_OUT }}
                     className="block h-[3px] rounded-full"
